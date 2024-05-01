@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.QYun</groupId>
-    <artifactId>AssetReader4J</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>assetreader4j</artifactId>
+    <version>1.0</version>
 
     <name>AssetReader4J</name>
     <url>https://github.com/Aloento/AssetReader4J</url>
@@ -47,17 +47,15 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>2.7</version> <!-- 使用较新的版本 -->
-                <configuration>
-                    <updateReleaseInfo>true</updateReleaseInfo>
-                </configuration>
-            </plugin>
-        </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/pxinz/AssetReader4J</url>
+        </repository>
+    </distributionManagement>
 
     <profiles>
         <profile>
@@ -77,15 +75,4 @@
             </repositories>
         </profile>
     </profiles>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/pxinz/AssetReader4J</url>
-        </snapshotRepository>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/pxinz/AssetReader4J</url>
-        </repository>
-    </distributionManagement>
 </project>

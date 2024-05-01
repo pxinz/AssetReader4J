@@ -1,5 +1,7 @@
 # AssetReader4J
 
+> 本Repo用于上传github packages以便使用
+
 Unity3D Asset-Bundles Reader with Java  
 用Java读取Unity3D资源文件的**库**  
 即开即用版：https://github.com/Aloento/UnityABStudio
