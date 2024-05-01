@@ -6,7 +6,7 @@
 
     <groupId>com.QYun</groupId>
     <artifactId>assetreader4j</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <name>AssetReader4J</name>
     <url>https://github.com/Aloento/AssetReader4J</url>

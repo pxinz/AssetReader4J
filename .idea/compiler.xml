@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AssetReader4J" />
+        <module name="assetreader4j" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AssetReader4J" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
